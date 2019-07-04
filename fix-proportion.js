@@ -1,4 +1,4 @@
-module.exports = function fixProportion() {
+var fixProportion = function() {
   var _p_width
   var _p_height
   var _el_width
@@ -51,3 +51,5 @@ module.exports = function fixProportion() {
 
   return fixProportion
 }()
+
+module.exports = fixProportion
